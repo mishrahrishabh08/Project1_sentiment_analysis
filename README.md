@@ -55,7 +55,7 @@ As the dataset was very big, only the top `15000` rows are included
 
 ## How to Run
 1. Ensure the virtual environment is activated.
-2. Execute the Jupyter notebook or run the Python script.
+2. Execute the Jupyter notebook.
 3. Review the visualizations and sentiment analysis results.
 
 ## Visuals
