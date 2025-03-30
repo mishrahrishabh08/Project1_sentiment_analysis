@@ -13,6 +13,8 @@ This project performs sentiment analysis on Amazon product reviews by analyzing 
   - `tqdm`: To display progress bars during data processing.
 - **Environment:** Virtual environment (`venv`)
 
+## Technologies Used
+- **Dataset Used** : Reviews.csv on https://www.kaggle.com/datasets/snap/amazon-fine-food-reviews
 ## Project Setup
 ### 1. Clone the Repository
 ```
@@ -33,7 +35,7 @@ venv\Scripts\activate
 ```
 
 ## Dataset
-The project uses Amazon product reviews from `https://www.kaggle.com/datasets/snap/amazon-fine-food-reviews/Reviews.csv`. The dataset contains customer reviews with scores and text descriptions.
+The project uses Amazon product reviews from `https://www.kaggle.com/datasets/snap/amazon-fine-food-reviews/`. The dataset contains customer reviews with scores and text descriptions.
 As the dataset was very big, only the top `15000` rows are included
 
 ## Steps Followed
