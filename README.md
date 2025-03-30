@@ -33,7 +33,8 @@ venv\Scripts\activate
 ```
 
 ## Dataset
-The project uses Amazon product reviews from `dataset/Reviews.csv`. The dataset contains customer reviews with scores and text descriptions.
+The project uses Amazon product reviews from `https://www.kaggle.com/datasets/snap/amazon-fine-food-reviews/Reviews.csv`. The dataset contains customer reviews with scores and text descriptions.
+As the dataset was very big, only the top `15000` rows are included
 
 ## Steps Followed
 ### 1. **Data Loading and Exploration**
@@ -55,9 +56,39 @@ The project uses Amazon product reviews from `dataset/Reviews.csv`. The dataset 
 2. Execute the Jupyter notebook or run the Python script.
 3. Review the visualizations and sentiment analysis results.
 
+## Visuals
+1. Our initial dataset
+
+   ![Screenshot From 2025-03-30 15-49-15](https://github.com/user-attachments/assets/f9ea56f9-e9c0-4818-a9dc-f927b6eae6fc)
+   
+3. Count of Reviews by Stars
+
+    ![Screenshot From 2025-03-30 15-49-25](https://github.com/user-attachments/assets/a9c2859f-8f20-4381-b05d-e186941fbbbd)
+   
+6. Our Dataset after including the result columns
+
+   ![Screenshot From 2025-03-30 15-49-41](https://github.com/user-attachments/assets/bbf99a9f-8c84-4003-8eaa-4cf2e1d7679d)
+   
+8. Compound Score by Amazon Star Review
+
+   ![Screenshot From 2025-03-30 15-50-57](https://github.com/user-attachments/assets/5cf6aec2-8d6c-43d4-9f25-3ca2b5de3f62)
+   
+9. Positive , negetive and neutral Scores by Amazon Star Review
+
+  ![Screenshot From 2025-03-30 15-51-08](https://github.com/user-attachments/assets/f8da3478-b06e-45a6-8eea-6d31dc184f18)
+
 ## Results
-- The project provides insights into the overall sentiment of Amazon reviews.
+- The project successfully provides insights into the overall sentiment of Amazon reviews.
+
 - Sentiment distribution is visualized using plots for better understanding.
+
+- Key Insight:
+
+   1- With the increase in positive sentiment scores, the overall rating score also rises.
+
+   2- This indicates that users giving positive feedback tend to leave higher ratings, demonstrating a clear correlation between sentiment and ratings.
+
+- The project effectively utilizes NLTK for sentiment analysis, successfully identifying and visualizing the sentiments of the reviews.
 
 ## Future Enhancements
 - Use more advanced NLP models (e.g., `Transformers`, `BERT`) for improved accuracy.
@@ -65,5 +96,5 @@ The project uses Amazon product reviews from `dataset/Reviews.csv`. The dataset 
 - Create a web dashboard to display real-time review analysis.
 
 ## Author
-[Your Name]
+Hrishabh Mishra
 
