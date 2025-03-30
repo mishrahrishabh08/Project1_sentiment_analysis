@@ -16,8 +16,8 @@ This project performs sentiment analysis on Amazon product reviews by analyzing 
 ## Project Setup
 ### 1. Clone the Repository
 ```
-git clone <repository_url>
-cd <project_directory>
+git clone https://github.com/mishrahrishabh08/Project1_sentiment_analysis.git
+cd Project1_sentiment_analysis
 ```
 
 ### 2. Create and Activate Virtual Environment
